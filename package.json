@@ -1,0 +1,36 @@
+{
+  "name": "gulp-bootstrap",
+  "version": "1.0.0",
+  "description": "Gulp 4 build process with Bootstrap 5.",
+  "engines": {
+    "node": ">=16.0.0"
+  },
+  "scripts": {
+    "dev": "cross-env NODE_ENV=development gulp",
+    "build": "cross-env NODE_ENV=development gulp build",
+    "prod": "cross-env NODE_ENV=production gulp build"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.20.12",
+    "@babel/preset-env": "^7.20.2",
+    "autoprefixer": "^10.4.13",
+    "babel-loader": "^9.1.2",
+    "browser-sync": "^2.27.11",
+    "cross-env": "^7.0.3",
+    "gulp": "^4.0.2",
+    "gulp-clean": "^0.4.0",
+    "gulp-clean-css": "^4.3.0",
+    "gulp-mode": "^1.1.0",
+    "gulp-plumber": "^1.2.1",
+    "gulp-postcss": "^9.0.1",
+    "gulp-rename": "^2.0.0",
+    "gulp-sass": "^5.1.0",
+    "gulp-sourcemaps": "^3.0.0",
+    "gulp-uglify": "^3.0.2",
+    "sass": "^1.57.1",
+    "webpack-stream": "^7.0.0"
+  },
+  "dependencies": {
+    "bootstrap": "^5.2.3"
+  }
+}
